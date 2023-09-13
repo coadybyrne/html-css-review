@@ -16,6 +16,7 @@ body {
 main.wrapper {
     max-width: 1200px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 ul {
@@ -35,7 +36,7 @@ h1 {
     font-family: Wix Madefor Display;
     font-weight: 800;
     text-shadow: #000;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h2 {
@@ -50,6 +51,12 @@ h3 {
     font-size: 1rem;
 }
 
+.icecream {
+    text-align: center;
+}
+
 .team {
+    object-fit: cover;
+    border-radius: 50%;
     filter: grayscale(100%);
 }
