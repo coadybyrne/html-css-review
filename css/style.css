@@ -12,7 +12,16 @@ body {
     line-height: 1.5;
 }
 
-.wrapper {
+main.wrapper {
     max-width: 1200px;
     margin: auto;
+}
+
+.dark {
+    background-color: #000;
+    color: #DEC9E9;
+}
+
+.purple {
+    background-color: #7251B5;
 }
