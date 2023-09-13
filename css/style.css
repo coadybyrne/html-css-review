@@ -6,7 +6,13 @@ html {
     box-sizing: inherit;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+body {
+    font-family: Nunito;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
 }
