@@ -52,6 +52,7 @@ h3 {
 }
 
 .icecream {
+    object-fit: contain;
     text-align: center;
 }
 
