@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Nunito;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+main.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.dark {
+    background-color: #000;
+    color: #DEC9E9;
+}
+
+.purple {
+    background-color: #7251B5;
+}
+
+h1 {
+    font-family: Wix Madefor Display;
+    font-weight: 800;
+    text-shadow: #000;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: Wix Madefor Display;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: Wix Madefor Display;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.icecream {
+    object-fit: contain;
+    text-align: center;
+}
+
+.team {
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}

@@ -1,63 +1,51 @@
-html {
+*{
     box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
 }
 
 body {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
-    color: #fff;
     line-height: 1.5;
+    margin: 0;
+    /* color: #fff; */
 }
 
-main.wrapper {
+.wrapper {
     max-width: 1200px;
-    margin: auto;
-    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-ul {
-    list-style-type: none;
-  }
+/* headings */
 
-.dark {
-    background-color: #000;
+#company-name {
     color: #DEC9E9;
+    font-size: 1.5rem;
 }
 
-.purple {
+#header {
+    background-color: #000;
+}
+
+nav ul li a:link, 
+nav ul li a:visited {
+    color: #DEC9E9;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff;
+}
+
+/* hero banner */
+
+#hero-banner {
+    height: 60vh;
+
     background-color: #7251B5;
-}
 
-h1 {
-    font-family: Wix Madefor Display;
-    font-weight: 800;
-    text-shadow: #000;
-    font-size: 3.5rem;
-}
-
-h2 {
-    font-family: Wix Madefor Display;
-    font-weight: 400;
-    font-size: 2rem;
-}
-
-h3 {
-    font-family: Wix Madefor Display;
-    font-weight: 600;
-    font-size: 1rem;
-}
-
-.icecream {
-    object-fit: contain;
-    text-align: center;
-}
-
-.team {
-    object-fit: cover;
-    border-radius: 50%;
-    filter: grayscale(100%);
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
