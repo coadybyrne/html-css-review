@@ -7,7 +7,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
-    /* color: #fff; */
+    color: #fff; 
 }
 
 .wrapper {
@@ -48,4 +48,100 @@ nav ul li a:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+#intro,
+#fan-fave,
+#team {
+    padding: 4em 0;
+}
+
+#header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding-left: 1.25em;
+}
+
+#intro {
+    background-color: #7251B5;
+}
+
+#intro p {
+    max-width: 50%;
+}
+
+#fan-fave {
+    background-color: #000;
+    color: #DEC9E9;
+}
+
+#fan-fave ol {
+    list-style: none;
+    padding-left: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#fan-fave ol li {
+    width: 50%;
+    padding-right: 15%;
+}
+
+#team {
+    background-color: #7251B5;
+}
+
+#team h2,
+.team-intro {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:  2.5em;
+    gap: 1em;
+}
+
+.team-grid div {
+    background-color: #6647A6;
+    border-radius: 30px;
+    padding: 2em 0;
+    text-align: center;
+}
+.team-grid div img {
+    width: 80px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.team-grid h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.team-grid div p {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #000;
+    color: #DEC9E9;
+    text-align: center;
 }
